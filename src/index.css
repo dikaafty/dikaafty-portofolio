@@ -9,4 +9,6 @@
   --color-primary-foreground: hsl(var(--primary-foreground));
 
   --color-card: hsl(var(--card));
+
+  --animate-float: float 6s ease-in-out infinite;
 }
