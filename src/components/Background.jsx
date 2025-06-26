@@ -3,6 +3,10 @@ import { useState, useEffect } from "react";
 const Background = () => {
   const [ stars, setStars ] = useState([]);
 
+  useEffect(() => {
+    
+  }, []);
+
   const generateStars = () => {
     const numberOfStars = Math.floor(
       (window.innerWidth * window.innerHeight) / 10000
