@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Sun } from "lucide-react";
 
 const ThemeToggle = () => {
   const [ isDarkMode, setIsDarkMode ] = useState(false);
