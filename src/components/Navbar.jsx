@@ -39,6 +39,26 @@ const Navbar = () => {
             Afty
           </span>
         </a>
+
+        {/* Desktop Nav */}
+        <div className="hidden md:flex space-x-8">
+          {
+            navItems.map((item, key) => (
+              <a 
+                key={key}
+                href={item.href}
+                className={cn(
+                  "text-foreground/80 hover:text-primary font-inter transition-colors duration-300",
+                  "text-xs tracking-[1px] relative after:content-[''] after:w-0 after:h-0.5",
+                  "hover:after:w-full after:transition-all after:duration-300 after:bg-primary after:absolute", 
+                  "after:bottom-[-2px] after:left-0"
+                )}
+              >
+                {item.name.toUpperCase()}
+              </a>
+            ))
+          }
+        </div>
       </div>
     </nav>
   )
