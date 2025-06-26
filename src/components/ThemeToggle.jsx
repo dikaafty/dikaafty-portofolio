@@ -29,7 +29,15 @@ const ThemeToggle = () => {
   }
 
   return (
-    
+    <button>
+      {
+        isDarkMode ? (
+          <Sun />
+        ) : (
+          <Moon />
+        )
+      }
+    </button>
   )
 }
 
