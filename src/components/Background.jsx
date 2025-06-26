@@ -9,7 +9,7 @@ const Background = () => {
     generateMeteors();
 
     const handeResize = () => {
-      
+      generateStars();
     }
   }, []);
 
