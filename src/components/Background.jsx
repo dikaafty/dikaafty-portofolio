@@ -13,6 +13,8 @@ const Background = () => {
     }
 
     window.addEventListener("resize", handeResize);
+
+    return () => window.removeEventListener("resize", handeResize);
   }, []);
 
   const generateStars = () => {
