@@ -11,6 +11,8 @@ const Background = () => {
     const handeResize = () => {
       generateStars();
     }
+
+    window.addEventListener("resize", handeResize);
   }, []);
 
   const generateStars = () => {
