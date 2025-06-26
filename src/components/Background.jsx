@@ -7,6 +7,10 @@ const Background = () => {
   useEffect(() => {
     generateStars();
     generateMeteors();
+
+    const handeResize = () => {
+      
+    }
   }, []);
 
   const generateStars = () => {
