@@ -1,6 +1,8 @@
 import { useState } from "react";
 
 const Background = () => {
+  const [ stars, setStars ] = useState([]);
+
   return (
     <div>
       
