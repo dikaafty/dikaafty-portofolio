@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 const Background = () => {
   const [ stars, setStars ] = useState([]);
+  const [ meteors, setMeteors ] = useState([]);
 
   useEffect(() => {
     generateStars();
