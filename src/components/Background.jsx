@@ -6,6 +6,7 @@ const Background = () => {
 
   useEffect(() => {
     generateStars();
+    generateMeteors();
   }, []);
 
   const generateStars = () => {
