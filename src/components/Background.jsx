@@ -4,7 +4,7 @@ const Background = () => {
   const [ stars, setStars ] = useState([]);
 
   useEffect(() => {
-    
+    generateStars();
   }, []);
 
   const generateStars = () => {
