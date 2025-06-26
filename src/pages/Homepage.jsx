@@ -5,6 +5,8 @@ const Homepage = () => {
   return (
     <div>
       <ThemeToggle />
+
+      <Background />
     </div>
   )
 }
