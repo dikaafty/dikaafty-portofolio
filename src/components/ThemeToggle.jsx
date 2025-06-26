@@ -1,8 +1,6 @@
 const ThemeToggle = () => {
   return (
-    <div>
-      
-    </div>
+    
   )
 }
 
