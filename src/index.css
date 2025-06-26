@@ -4,6 +4,7 @@
 
 @theme {
   --font-poppins: "Poppins";
+  --font-inter: "Inter";
 
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
