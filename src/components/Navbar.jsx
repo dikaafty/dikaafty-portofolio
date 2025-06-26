@@ -1,4 +1,5 @@
 import { cn } from "@/lib/utils";
+import { useState, useEffect } from "react";
 
 const navItems = [
   {name: "Home", href: "#hero"},
