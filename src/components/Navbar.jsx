@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+
 const navItems = [
   {name: "Home", href: "#hero"},
   {name: "About", href: "#about"},
