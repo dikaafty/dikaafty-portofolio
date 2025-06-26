@@ -29,7 +29,7 @@ const ThemeToggle = () => {
   }
 
   return (
-    <button>
+    <button onClick={toggleTheme}>
       {
         isDarkMode ? (
           <Sun />
