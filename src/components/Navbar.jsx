@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { useState, useEffect } from "react";
+import { X, Menu } from "lucide-react";
 
 const navItems = [
   {name: "Home", href: "#hero"},
