@@ -8,6 +8,8 @@ const Homepage = () => {
       <ThemeToggle />
 
       <Background />
+
+      <Navbar />
     </div>
   )
 }
