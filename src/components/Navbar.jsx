@@ -12,6 +12,10 @@ const navItems = [
 const Navbar = () => {
   const [ isScrolled, setIsScrolled ] = useState(false);
 
+  useEffect(() => {
+    
+  }, []);
+
   return (
     <nav>
       
