@@ -110,7 +110,9 @@
 }
 
 @layer components {
-  
+  .fil0 {
+    @apply fill-[hsl(var(--opposite-color))]
+  }
 }
 
 @utility container {
