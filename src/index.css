@@ -158,6 +158,13 @@
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
 }
 
+@utility profession-text {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: .7px hsl(250 65% 65%);
+}
+
 #root {
   max-width: 100%;
   margin: 0 auto;
