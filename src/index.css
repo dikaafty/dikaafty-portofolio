@@ -163,6 +163,11 @@
   font-weight: 700;
   color: transparent;
   -webkit-text-stroke: .7px hsl(250 65% 65%);
+  background-image: linear-gradient(hsl(250 65% 65%), hsl(250 65% 65%));
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: professionBgText 6s linear infinite;
 }
 
 #root {
