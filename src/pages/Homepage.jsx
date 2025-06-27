@@ -14,7 +14,7 @@ const Homepage = () => {
 
 
       <main>
-
+        <HeroSection />
       </main>
     </div>
   )
