@@ -1,6 +1,7 @@
 import ThemeToggle from "../components/ThemeToggle";
 import Background from "@/components/Background";
 import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
 
 const Homepage = () => {
   return (
@@ -13,7 +14,7 @@ const Homepage = () => {
 
 
       <main>
-        
+
       </main>
     </div>
   )
