@@ -10,6 +10,11 @@ const Homepage = () => {
       <Background />
 
       <Navbar />
+
+
+      <main>
+        
+      </main>
     </div>
   )
 }
