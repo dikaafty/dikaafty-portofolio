@@ -1,4 +1,3 @@
-import { cn } from "@/lib/utils";
 import CosmicButton from "./CosmicButton";
 
 const HeroSection = () => {
