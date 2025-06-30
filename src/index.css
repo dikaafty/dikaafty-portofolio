@@ -336,15 +336,15 @@
 
 @keyframes professionCursorText {
   0%,
-  11.5%, 
+  22%, 
   100% {
     width: 0;
   }
 
-  46%,
+  65%,
   78%,
   90% {
-    width: 61%;
+    width: 101%;
     opacity: 1;
   }
 
