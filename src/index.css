@@ -339,19 +339,6 @@
   }
 }
 
-@keyframes professionBgTextMobile {
-  0%,
-  16%, 
-  100% {
-    background-position: -15rem 0;
-  }
-
-  65%,
-  90.8% {
-    background-position: 0 0;
-  }
-}
-
 @keyframes professionCursorText {
   0%,
   22%, 
