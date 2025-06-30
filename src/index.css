@@ -207,7 +207,7 @@
 }
 
 @utility scroll-down-button-span {
-  @apply bg-[hsl(var(--foreground))] w-1.5 h-2 rounded-full mt-2.5 relative;
+  @apply bg-[hsl(var(--foreground))] w-3 h-3 rounded-full mt-2.5 relative;
 }
 
 #root {
