@@ -351,6 +351,24 @@
   z-index: 2;
 }
 
+.scroll-down-button-span::before,
+.scroll-down-button-span::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  border-right: 2px solid hsl(var(--foreground));
+  border-bottom: 2px solid hsl(var(--foreground));
+  opacity: 0;
+  animation: slide-down 1.8s infinite linear;
+}
+
+.scroll-down-button-span::after {
+  animation-delay: 0.8s;
+}
+
 @keyframes professionBgText {
   0%,
   10%, 
