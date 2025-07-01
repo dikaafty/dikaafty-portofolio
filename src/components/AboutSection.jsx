@@ -2,7 +2,10 @@ import photoProfile from "@/assets/images/photo-profile.png";
 
 const AboutSection = () => {
   return (
-    <section>
+    <section
+      id="about"
+      className="relative py-24 px-4"
+    >
       
     </section>
   )
