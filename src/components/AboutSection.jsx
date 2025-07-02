@@ -1,5 +1,6 @@
 import photoProfile from "@/assets/images/photo-profile.png";
 import { runObserver } from "@/lib/utils";
+import { useEffect, useRef } from "react";
 
 const AboutSection = () => {
   return (
