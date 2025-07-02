@@ -19,6 +19,8 @@ const skills = [
 ];
 
 const SkillsSection = () => {
+  const sectionTitleRef = useRef(null);
+
   return (
     <section
       id="skills"
