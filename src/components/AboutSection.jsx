@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 const AboutSection = () => {
   const sectionTitleRef = useRef(null);
   const bioSectionRef = useRef(null);
+  const photoProfileRef = useRef(null);
 
   return (
     <section
