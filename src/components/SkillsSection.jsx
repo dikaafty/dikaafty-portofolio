@@ -1,4 +1,5 @@
 import { runObserver } from "@/lib/utils";
+import { useEffect, useRef } from "react";
 
 const skills = [
   // Frontend
