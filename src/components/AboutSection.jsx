@@ -20,7 +20,11 @@ const AboutSection = () => {
       className="relative py-24 px-4"
     >
       <div className="container mx-auto max-w-5xl">
-        
+        <h2 className="section-title hiddenSlideUpEl" ref={sectionTitleRef} data-animate="slideY">
+          About <span className="text-primary">Me</span>
+          <div className="dividerOne" data-animate="fixDividerWidth" ref={dividerOneRef} />
+          <div className="dividerTwo" data-animate="fixDividerWidth" ref={dividerTwoRef} />
+        </h2>
       </div>
     </section>
   )
