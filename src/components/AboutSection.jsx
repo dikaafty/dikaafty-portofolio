@@ -19,7 +19,9 @@ const AboutSection = () => {
       id="about"
       className="relative py-24 px-4"
     >
-      
+      <div className="container mx-auto max-w-5xl">
+        
+      </div>
     </section>
   )
 }
