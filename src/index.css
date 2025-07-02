@@ -157,7 +157,7 @@
 }
 
 @utility card-hover {
-  @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
+  @apply hover:-translate-1 hover:shadow-[5px_5px_0_2px_hsl(var(--foreground))] transition-all duration-500;
 }
 
 @utility gradient-border {
