@@ -1,4 +1,5 @@
 import photoProfile from "@/assets/images/photo-profile.png";
+import { runObserver } from "@/lib/utils";
 
 const AboutSection = () => {
   return (
