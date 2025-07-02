@@ -25,6 +25,10 @@ const AboutSection = () => {
           <div className="dividerOne" data-animate="fixDividerWidth" ref={dividerOneRef} />
           <div className="dividerTwo" data-animate="fixDividerWidth" ref={dividerTwoRef} />
         </h2>
+
+        <div 
+          className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-20">
+        </div>
       </div>
     </section>
   )
