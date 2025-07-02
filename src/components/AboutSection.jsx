@@ -3,6 +3,8 @@ import { runObserver } from "@/lib/utils";
 import { useEffect, useRef } from "react";
 
 const AboutSection = () => {
+  const sectionTitleRef = useRef(null);
+
   return (
     <section
       id="about"
