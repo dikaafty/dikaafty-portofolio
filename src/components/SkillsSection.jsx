@@ -1,3 +1,5 @@
+import { runObserver } from "@/lib/utils";
+
 const skills = [
   // Frontend
   {name: "HTML", level: 85, category: "Frontend"},
