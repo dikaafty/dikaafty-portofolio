@@ -260,7 +260,7 @@
   @apply opacity-0 translate-x-10 transition-all duration-1000 ease-in-out;
 }
 
-@utility slideRight {
+@utility slideX {
   @apply opacity-100 translate-x-0;
 }
 
