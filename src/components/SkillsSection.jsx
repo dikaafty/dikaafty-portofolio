@@ -12,7 +12,7 @@ const skills = [
   {name: "React", level: 80, category: "Frontend"},
 
   // Tools
-  {name: "GIT", level: 80, category: "Frontend"},
+  {name: "Git", level: 80, category: "Frontend"},
   {name: "GitHub", level: 80, category: "Frontend"},
   {name: "Figma", level: 50, category: "Frontend"},
   {name: "VS Code", level: 90, category: "Frontend"},
