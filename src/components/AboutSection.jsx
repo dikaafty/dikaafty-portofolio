@@ -38,6 +38,14 @@ const AboutSection = () => {
             and React, and I’m on a mission to become an elite developer with discipline, energy, and ambition in 
             every line of code.
           </div>
+
+          <img
+            src={photoProfile}
+            alt="Photo Profile"
+            className="photo-profile hiddenSlideLeftEl"
+            data-animate="slideX"
+            ref={photoProfileRef}
+          />
         </div>
       </div>
     </section>
