@@ -9,6 +9,11 @@ const AboutSection = () => {
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
 
+  useEffect(() => {
+    const cleanUp = runObserver(sectionTitleRef, bioSectionRef, photoProfileRef, dividerOneRef, dividerTwoRef);
+    return () => cleanUp();
+  }, []);
+
   return (
     <section
       id="about"
