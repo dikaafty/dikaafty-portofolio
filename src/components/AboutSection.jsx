@@ -28,6 +28,16 @@ const AboutSection = () => {
 
         <div 
           className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-20">
+          <div
+            className="bio-section hiddenSlideRightEl"
+            data-animate="slideX"
+            ref={bioSectionRef}
+          > 
+            I’m Agung Ardika Aftriyansyah, also known as Dika Afty — a passionate Front-End Developer focused on 
+            building clean, responsive, and interactive web interfaces. I specialize in HTML, CSS, JavaScript, 
+            and React, and I’m on a mission to become an elite developer with discipline, energy, and ambition in 
+            every line of code.
+          </div>
         </div>
       </div>
     </section>
