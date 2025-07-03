@@ -1,4 +1,4 @@
-import { runObserver } from "@/lib/utils";
+import { runObserver, cn } from "@/lib/utils";
 import { useState, useEffect, useRef, createRef } from "react";
 
 const skills = [
