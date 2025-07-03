@@ -1,5 +1,5 @@
 import { runObserver } from "@/lib/utils";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, createRef } from "react";
 
 const skills = [
   // Frontend
@@ -20,6 +20,8 @@ const skills = [
 
 const SkillsSection = () => {
   const sectionTitleRef = useRef(null);
+  const dividerOneRef = useRef(null);
+  const dividerTwoRef = useRef(null);
 
   return (
     <section
