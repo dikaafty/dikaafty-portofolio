@@ -18,6 +18,8 @@ const skills = [
   {name: "VS Code", level: 90, category: "Frontend"},
 ];
 
+const categories = ["all", "frontend", "tools"];
+
 const SkillsSection = () => {
   const [ activeCategory, setActiveCategory ] = useState("all");
   const sectionTitleRef = useRef(null);
