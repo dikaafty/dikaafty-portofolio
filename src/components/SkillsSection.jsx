@@ -22,6 +22,9 @@ const SkillsSection = () => {
   const sectionTitleRef = useRef(null);
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
+  const skillsRef = useRef([]);
+
+  skillsRef.current = skills.map((_, idx) => skillsRef.current[idx] ?? createRef());
 
   return (
     <section
