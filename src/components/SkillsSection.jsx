@@ -26,8 +26,10 @@ const SkillsSection = () => {
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
   const skillsRef = useRef([]);
+  const categoriesRef = useRef([]);
 
   skillsRef.current = skills.map((_, idx) => skillsRef.current[idx] ?? createRef());
+  categoriesRef.current = categories.map((_, idx) => categoriesRef.current[idx] ?? createRef());
 
   const filteredSkills = skills.filter(
     (skill) => activeCategory === "all" || skill.category === activeCategory
