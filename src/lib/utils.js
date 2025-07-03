@@ -20,7 +20,13 @@ export const runObserver = (...refs) => {
   }, options);
 
   refs.forEach((ref) => {
-    if(ref.current) observer.observe(ref.current);
+    if(ref.current.length !== undefined) {
+      ref.current.forEach((r) => {
+        if(r.current) observer.observe(r.current);
+      });
+    } else {
+      if(ref.current) observer.observe(ref.current);
+    }
   });
 
   return () => observer.disconnect();
