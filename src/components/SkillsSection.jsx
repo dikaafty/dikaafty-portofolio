@@ -38,7 +38,7 @@ const SkillsSection = () => {
       sectionTitleRef, dividerOneRef, dividerTwoRef, skillsRef
     );
     return () => cleanUp();
-  }, []);
+  }, [filteredSkills]);
 
   return (
     <section
