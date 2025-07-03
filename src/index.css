@@ -225,7 +225,7 @@
 
 @utility dividerTwo {
   @apply w-0 h-0.5 bg-primary absolute -bottom-[13px] left-1/2 transform -translate-x-1/2
-         transition-all duration-1000 ease-in-out;
+         transition-all duration-1000 ease-in-out delay-200;
 }
 
 @utility fixDividerWidth {
