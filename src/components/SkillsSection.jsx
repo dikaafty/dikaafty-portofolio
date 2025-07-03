@@ -29,6 +29,10 @@ const SkillsSection = () => {
 
   skillsRef.current = skills.map((_, idx) => skillsRef.current[idx] ?? createRef());
 
+  const filteredSkills = skills.filter(
+    (skill) => activeCategory === "all" || skill.category === activeCategory
+  );
+
   useEffect(() => {
     const cleanUp = runObserver(
       sectionTitleRef, dividerOneRef, dividerTwoRef, skillsRef
