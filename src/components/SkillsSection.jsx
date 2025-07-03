@@ -26,6 +26,13 @@ const SkillsSection = () => {
 
   skillsRef.current = skills.map((_, idx) => skillsRef.current[idx] ?? createRef());
 
+  useEffect(() => {
+    const cleanUp = runObserver(
+      sectionTitleRef, dividerOneRef, dividerTwoRef, skillsRef
+    );
+    return () => cleanUp();
+  }, []);
+
   return (
     <section
       id="skills"
