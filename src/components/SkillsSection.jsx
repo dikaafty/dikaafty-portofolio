@@ -3,19 +3,19 @@ import { useState, useEffect, useRef, createRef } from "react";
 
 const skills = [
   // Frontend
-  {name: "HTML", level: 85, category: "Frontend"},
-  {name: "CSS", level: 85, category: "Frontend"},
-  {name: "Tailwind CSS", level: 85, category: "Frontend"},
-  {name: "JavaScript", level: 80, category: "Frontend"},
-  {name: "TypeScript", level: 50, category: "Frontend"},
-  {name: "Webpack", level: 50, category: "Frontend"},
-  {name: "React", level: 80, category: "Frontend"},
+  {name: "HTML", level: 85, category: "frontend"},
+  {name: "CSS", level: 85, category: "frontend"},
+  {name: "Tailwind CSS", level: 85, category: "frontend"},
+  {name: "JavaScript", level: 80, category: "frontend"},
+  {name: "TypeScript", level: 50, category: "frontend"},
+  {name: "Webpack", level: 50, category: "frontend"},
+  {name: "React", level: 80, category: "frontend"},
 
   // Tools
-  {name: "Git", level: 80, category: "Frontend"},
-  {name: "GitHub", level: 80, category: "Frontend"},
-  {name: "Figma", level: 50, category: "Frontend"},
-  {name: "VS Code", level: 90, category: "Frontend"},
+  {name: "Git", level: 80, category: "tools"},
+  {name: "GitHub", level: 80, category: "tools"},
+  {name: "Figma", level: 50, category: "tools"},
+  {name: "VS Code", level: 90, category: "tools"},
 ];
 
 const categories = ["all", "frontend", "tools"];
