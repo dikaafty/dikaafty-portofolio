@@ -19,6 +19,7 @@ const skills = [
 ];
 
 const SkillsSection = () => {
+  const [ activeCategory, setActiveCategory ] = useState("all");
   const sectionTitleRef = useRef(null);
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
