@@ -1,4 +1,5 @@
 import { ExternalLinkIcon, Github } from "lucide-react";
+import CosmicButton from "./CosmicButton";
 
 const projects = [
   {
