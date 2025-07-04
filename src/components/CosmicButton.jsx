@@ -1,8 +1,8 @@
-const CosmicButton = () => {
+const CosmicButton = ({ textContent = "View My Projects" }) => {
   return (
     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
       <a href="#projects" className="cosmic-button">
-        View My Projects
+        {textContent}
         <div className="star-1">
           <svg
             xmlnsXlink="http://www.w3.org/1999/xlink"
