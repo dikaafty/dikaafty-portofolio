@@ -36,6 +36,9 @@ const ProjectsSection = () => {
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
   const cosmicButtonRef = useRef(null);
+  const projectsRef = useRef([]);
+
+  projectsRef.current = projects.map((_, idx) => projectsRef.current[idx] ?? createRef());
 
   return (
     <section 
