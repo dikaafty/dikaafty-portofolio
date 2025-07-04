@@ -9,7 +9,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "VideoBelajar - Learning Website",
+    title: "VideoBelajar - Learning Web",
     description: "A simple and responsive web-based video learning platform designed to help users access educational content anytime, anywhere.",
     image: "/images/project-two.png",
     demoUrl: "https://videobelajar-api-redux.netlify.app/",
