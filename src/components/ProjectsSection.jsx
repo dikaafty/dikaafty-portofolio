@@ -31,6 +31,8 @@ const projects = [
 ];
 
 const ProjectsSection = () => {
+  const sectionTitleRef = useRef(null);
+
   return (
     <section 
       id="projects"
