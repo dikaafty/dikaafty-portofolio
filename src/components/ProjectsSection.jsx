@@ -27,7 +27,10 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section>
+    <section 
+      id="projects"
+      className="py-24 px-4 relative"
+    >
       
     </section>
   )
