@@ -32,6 +32,8 @@ const projects = [
 
 const ProjectsSection = () => {
   const sectionTitleRef = useRef(null);
+  const dividerOneRef = useRef(null);
+  const dividerTwoRef = useRef(null);
 
   return (
     <section 
