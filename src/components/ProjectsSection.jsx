@@ -35,6 +35,7 @@ const ProjectsSection = () => {
   const sectionSubtitleRef = useRef(null);
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
+  const cosmicButtonRef = useRef(null);
 
   return (
     <section 
