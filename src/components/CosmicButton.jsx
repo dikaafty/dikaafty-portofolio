@@ -1,7 +1,7 @@
-const CosmicButton = ({ textContent = "View My Projects" }) => {
+const CosmicButton = ({ textContent = "View My Projects", href = "#projects" }) => {
   return (
     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-      <a href="#projects" className="cosmic-button">
+      <a href={href} className="cosmic-button">
         {textContent}
         <div className="star-1">
           <svg
