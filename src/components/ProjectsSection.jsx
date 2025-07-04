@@ -20,7 +20,7 @@ const projects = [
   {
     id: 3,
     title: "Uno.do",
-    description: "A clean and interactive Todo List application to manage your daily tasks efficiently. This project offers features like task categorization, editing, and completion tracking.",
+    description: "A clean and interactive Todo List application to manage your daily tasks efficiently. Designed with simplicity and productivity in mind.",
     image: "/images/project-three.png",
     demoUrl: "https://dikaafty.github.io/todo-list/",
     githubUrl: "https://github.com/dikaafty/todo-list"
