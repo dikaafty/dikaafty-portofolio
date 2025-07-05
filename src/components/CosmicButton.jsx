@@ -1,6 +1,10 @@
-const CosmicButton = ({ textContent = "View My Projects", href = "#projects", target = "", ref }) => {
+const CosmicButton = ({ textContent = "View My Projects", href = "#projects", target = "", ref, dataAnimate }) => {
   return (
-    <div className="pt-4 opacity-0 animate-fade-in-delay-4" ref={ref}>
+    <div 
+      className="pt-4 opacity-0 animate-fade-in-delay-4" 
+      data-animate={dataAnimate} 
+      ref={ref}
+    >
       <a href={href} target={target} className="cosmic-button">
         {textContent}
         <div className="star-1">
