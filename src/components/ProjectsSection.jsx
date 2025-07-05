@@ -54,7 +54,97 @@ const ProjectsSection = () => {
       id="projects"
       className="py-24 px-4 relative"
     >
-      
+      <div className="container mx-auto max-w-5xl">
+        <h2 
+          className="section-title hiddenSlideUpEl"
+          data-animate="slideY"
+          ref={sectionTitleRef}
+        >
+          My <span className="text-primary">Projects</span>
+
+          <div 
+            className="dividerOne" 
+            data-animate="fixDividerWidth" 
+            ref={dividerOneRef}
+          />
+
+          <div 
+            className="dividerTwo" 
+            data-animate="fixDividerWidth" 
+            ref={dividerTwoRef}
+          />
+        </h2>
+
+        <p 
+          className="font-poppins text-center text-muted-foreground mb-12 max-w-2xl mx-auto hiddenSlideUpEl"
+          data-animate="slideY"
+          ref={sectionSubtitleRef}
+        >
+          Here are some of my projects that I have worked on. Feel free to explore them!
+        </p>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {
+            projects.map((project, idx) => (
+              <div
+                key={project.id}
+                className="group project bg-card rounded-lg overflow-hidden p-6 hiddenSlideRightEl
+                           border-1 border-[hsl(var(--foreground))] shadow-[5px_5px_0_2px_hsl(var(--foreground))]"
+                data-animate="slideX"
+                ref={projectsRef.current[idx]}
+              >
+                <div className="h-fit rounded-lg overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-full object-cover transition-transform duration-500
+                               select-none group-hover:scale-110"
+                  />
+                </div>
+
+                <h3 className="font-poppins text-xl text-left font-semibold mt-4 mb-1.5">
+                  {project.title}
+                </h3>
+
+                <p className="font-inter text-muted-foreground text-sm text-left mb-4">
+                  {project.description}
+                </p>
+
+                <div className="flex justify-between items-center">
+                  <div className="flex space-x-3">
+                    <a 
+                      href={project.demoUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-all duration-300"
+                    >
+                      <ExternalLinkIcon size={22} />
+                    </a>
+
+                    <a 
+                      href={project.githubUrl}
+                      target="_blank"
+                      className="text-foreground/80 hover:text-primary transition-all duration-300"
+                    >
+                      <Github size={22} />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            ))
+          }
+        </div>
+
+        <div className="text-center mt-12">
+          <CosmicButton 
+            textContent="Check My Github" 
+            href="https://github.com/dikaafty" 
+            target="_blank" 
+            dataAnimate="slideY"
+            ref={cosmicButtonRef}
+            animateButton={true}
+          />
+        </div>
+      </div>
     </section>
   )
 }
