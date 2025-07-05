@@ -40,6 +40,15 @@ const ProjectsSection = () => {
 
   projectsRef.current = projects.map((_, idx) => projectsRef.current[idx] ?? createRef());
 
+  useEffect(() => {
+    const cleanUp = runObserver(
+      sectionTitleRef, sectionSubtitleRef, dividerOneRef, dividerTwoRef,
+      projectsRef, cosmicButtonRef
+    );
+
+    return () => cleanUp();
+  }, []);
+
   return (
     <section 
       id="projects"
