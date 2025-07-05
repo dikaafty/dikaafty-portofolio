@@ -129,6 +129,8 @@ const ProjectsSection = () => {
                     </a>
                   </div>
                 </div>
+
+                <Sparkle className="absolute top-1 right-1" />
               </div>
             ))
           }
