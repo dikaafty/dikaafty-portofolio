@@ -1,4 +1,4 @@
-import { useRef, createRef } from "react";
+import { useEffect, useRef, createRef } from "react";
 import { ExternalLinkIcon, Github } from "lucide-react";
 import { runObserver } from "@/lib/utils";
 import CosmicButton from "./CosmicButton";
