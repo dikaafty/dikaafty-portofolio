@@ -1,6 +1,8 @@
 import { cn } from "../lib/utils";
 
-const CosmicButton = ({ textContent = "View My Projects", href = "#projects", target = "", ref, dataAnimate }) => {
+const CosmicButton = ({ 
+  textContent = "View My Projects", href = "#projects", target = "", ref, dataAnimate, animateButton = false 
+}) => {
   return (
     <div 
       className="pt-4 opacity-0 animate-fade-in-delay-4" 
