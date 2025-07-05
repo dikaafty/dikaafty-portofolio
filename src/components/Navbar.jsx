@@ -51,10 +51,10 @@ const Navbar = () => {
                 key={key}
                 href={item.href}
                 className={cn(
-                  "text-foreground/80 hover:text-primary font-inter transition-colors duration-300",
+                  "text-foreground/80 hover:text-primary font-inter transition-colors duration-500",
                   "text-xs tracking-[1px] relative after:content-[''] after:w-0 after:h-0.5",
                   "hover:after:w-full after:transition-all after:duration-300 after:bg-primary after:absolute", 
-                  "after:bottom-[-2px] after:left-0"
+                  "after:bottom-[-3px] after:left-1/2 after:transform after:-translate-1/2"
                 )}
               >
                 {item.name.toUpperCase()}
