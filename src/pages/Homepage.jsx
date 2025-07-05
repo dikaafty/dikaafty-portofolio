@@ -22,6 +22,7 @@ const Homepage = () => {
         <AboutSection />
         <SkillsSection />
         <ProjectsSection />
+        <ContactSection />
       </main>
     </div>
   )
