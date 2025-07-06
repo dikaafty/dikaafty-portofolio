@@ -11,6 +11,7 @@ const ContactSection = () => {
   const sectionSubtitleRef = useRef(null);
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
+  const contactInfoRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
