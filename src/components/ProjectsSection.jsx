@@ -143,7 +143,7 @@ const ProjectsSection = () => {
             target="_blank" 
             dataAnimate="slideY"
             ref={cosmicButtonRef}
-            animateButton={true}
+            hiddenAnimate={true}
           />
         </div>
       </div>
