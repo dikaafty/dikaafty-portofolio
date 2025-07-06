@@ -6,6 +6,7 @@ import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
   const { toast } = useToast();
+  const [ isSubmitting, setIsSubmitting ] = useState(false);
 
   return (
     <section
