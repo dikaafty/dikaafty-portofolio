@@ -129,7 +129,7 @@ const ContactSection = () => {
                     Location
                   </h4>
                   <a className="text-sm font-inter">
-                    Sragen, Central Java, Indonesia
+                    Sragen, Indonesia
                   </a>
                 </div>
               </div>
