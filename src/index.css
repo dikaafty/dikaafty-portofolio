@@ -25,6 +25,8 @@
   --animate-meteor: meteor 5s linear infinite;
   --animate-slide-down: slide-down 1.8s ease-in-out infinite;
 
+  --breakpoint-xs: 23.438rem;
+
   @keyframes float {
     0%,
     100% {
