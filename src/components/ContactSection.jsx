@@ -8,6 +8,21 @@ const ContactSection = () => {
   const { toast } = useToast();
   const [ isSubmitting, setIsSubmitting ] = useState(false);
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    setIsSubmitting(true);
+
+    setTimeout(() => {
+      toast({
+        title: "Message sent successfully!",
+        description: "Thank you for reaching out. I'll get back to you soon.",
+      });
+
+      setIsSubmitting(false);
+    }, 1500);
+  }
+
   return (
     <section
       id="contact"
