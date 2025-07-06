@@ -7,6 +7,7 @@ import { useToast } from "@/hooks/use-toast";
 const ContactSection = () => {
   const { toast } = useToast();
   const [ isSubmitting, setIsSubmitting ] = useState(false);
+  const sectionTitleRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
