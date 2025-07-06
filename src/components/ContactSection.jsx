@@ -9,6 +9,8 @@ const ContactSection = () => {
   const [ isSubmitting, setIsSubmitting ] = useState(false);
   const sectionTitleRef = useRef(null);
   const sectionSubtitleRef = useRef(null);
+  const dividerOneRef = useRef(null);
+  const dividerTwoRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
