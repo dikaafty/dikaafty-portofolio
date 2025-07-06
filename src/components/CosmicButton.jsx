@@ -1,13 +1,13 @@
 import { cn } from "../lib/utils";
 
 const CosmicButton = ({ 
-  textContent = "View My Projects", href = "#projects", target = "", ref, dataAnimate, animateButton = false 
+  textContent = "View My Projects", href = "#projects", target = "", ref, dataAnimate, hiddenAnimate = false 
 }) => {
   return (
     <div 
       className={cn(
         "pt-4 ",
-        animateButton ? "hiddenSlideUpEl" : "opacity-0 animate-fade-in-delay-4"
+        hiddenAnimate ? "hiddenSlideUpEl" : "opacity-0 animate-fade-in-delay-4"
       )}
       data-animate={dataAnimate} 
       ref={ref}
