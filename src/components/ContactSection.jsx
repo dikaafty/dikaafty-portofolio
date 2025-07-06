@@ -8,6 +8,7 @@ const ContactSection = () => {
   const { toast } = useToast();
   const [ isSubmitting, setIsSubmitting ] = useState(false);
   const sectionTitleRef = useRef(null);
+  const sectionSubtitleRef = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
