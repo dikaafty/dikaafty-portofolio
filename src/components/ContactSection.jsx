@@ -13,6 +13,14 @@ const ContactSection = () => {
   const contactInfoRef = useRef(null);
   const sendMessageRef = useRef(null);
 
+  useEffect(() => {
+    const cleanUp = runObserver(
+      sectionTitleRef, sectionSubtitleRef, dividerOneRef, dividerTwoRef,
+      contactInfoRef, sendMessageRef
+    );
+    return () => cleanUp();
+  }, []);
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
