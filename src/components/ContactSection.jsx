@@ -1,5 +1,6 @@
 import { useEffect, useRef, createRef } from "react";
 import { runObserver, cn } from "../lib/utils";
+import CosmicButton from "./CosmicButton";
 
 const ContactSection = () => {
   return (
