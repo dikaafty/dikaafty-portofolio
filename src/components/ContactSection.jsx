@@ -5,6 +5,8 @@ import CosmicButton from "./CosmicButton";
 import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
+  const { toast } = useToast();
+
   return (
     <section
       id="contact"
