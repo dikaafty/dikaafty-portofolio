@@ -25,6 +25,8 @@ const Homepage = () => {
         <ProjectsSection />
         <ContactSection />
       </main>
+
+      <Footer />
     </div>
   )
 }
