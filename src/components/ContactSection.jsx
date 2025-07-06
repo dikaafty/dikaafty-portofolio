@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { runObserver, cn } from "../lib/utils";
 import { Mail, Phone, MapPin } from "lucide-react";
-import CosmicButton from "./CosmicButton";
 import { useToast } from "@/hooks/use-toast";
 
 const ContactSection = () => {
