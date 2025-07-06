@@ -6,8 +6,8 @@ const CosmicButton = ({
   return (
     <div 
       className={cn(
-        "pt-4 opacity-0 animate-fade-in-delay-4",
-        animateButton ? "hiddenSlideUpEl" : ""
+        "pt-4 ",
+        animateButton ? "hiddenSlideUpEl" : "opacity-0 animate-fade-in-delay-4"
       )}
       data-animate={dataAnimate} 
       ref={ref}
