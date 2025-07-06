@@ -1,3 +1,5 @@
+import { Github, Linkedin, Instagram } from "lucide-react";
+
 const Footer = () => {
   return (
     <footer className="py-12 px-8 flex flex-col md:flex-row justify-between items-center max-md:gap-3">
