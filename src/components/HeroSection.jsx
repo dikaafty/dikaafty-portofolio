@@ -20,7 +20,7 @@ const HeroSection = () => {
         </h1>
 
         <div className="w-fit relative">
-          <h3 className="profession-text">Frontend Developer</h3>
+          <h3 className="profession-text font-jost">Frontend Developer</h3>
         </div>
 
         <p 
