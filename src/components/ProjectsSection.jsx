@@ -107,7 +107,7 @@ const ProjectsSection = () => {
                   {project.title}
                 </h3>
 
-                <p className="font-inter text-muted-foreground text-sm text-left mb-4">
+                <p className="font-jost text-muted-foreground text-base text-left mb-4">
                   {project.description}
                 </p>
 
