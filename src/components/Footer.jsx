@@ -33,8 +33,8 @@ const Footer = () => {
         © 2025 <span className="text-primary">AGUNG ARDIKA A</span>. ALL RIGHTS RESERVED
       </p>
 
-      <p className="font-poppins font-bold text-xs md:text-sm">
-        DEVELOPED BY <span className="text-primary">DIKA AFTY</span>
+      <p className="font-jost font-bold text-xs md:text-sm">
+        DEVELOPED BY <span className="text-primary text-glow">DIKA AFTY</span>
       </p>
     </footer>
   )
