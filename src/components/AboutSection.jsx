@@ -43,7 +43,7 @@ const AboutSection = () => {
             <img
               src={photoProfile}
               alt="Photo Profile"
-              className="photo-profile hiddenSlideLeftEl"
+              className="photo-profile"
             />
           </div>
         </div>
