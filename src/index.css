@@ -251,7 +251,7 @@
 
 @utility photo-profile {
   @apply w-55 h-55 md:w-70 md:h-70 mx-auto mix-blend-luminosity select-none absolute -top-11 right-5.5
-         rounded-tl-[50%] rounded-br-[50%];
+         rounded-tl-[50%] rounded-br-[50%] transition-all duration-500 ease-in-out;
 
   filter: drop-shadow(0 0 0 hsl(var(--card))) drop-shadow(5px 0 0 hsl(var(--card)))
           drop-shadow(-5px 0 0 hsl(var(--card))) drop-shadow(0 -5px 0 hsl(var(--card)));
