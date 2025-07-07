@@ -1,4 +1,5 @@
 import React from 'react'
+import Background from '../components/Background'
 
 const NotFound = () => {
   return (
