@@ -2,7 +2,7 @@ import React from 'react'
 
 const NotFound = () => {
   return (
-    <div>
+    <div className="bg-[#05080F]">
       
     </div>
   )
