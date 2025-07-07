@@ -100,7 +100,7 @@ const SkillsSection = () => {
                 ref={skillsRef.current[key]}
               >
                 <div className="text-left mb-4">
-                  <h3 className="font-poppins font-semibold text-lg">{skill.name}</h3>
+                  <h3 className="font-jost font-semibold text-lg">{skill.name}</h3>
                 </div>
 
                 <div className="w-full bg-secondary/50 h-2 rounded-full overflow-hidden">
@@ -111,7 +111,7 @@ const SkillsSection = () => {
                 </div>
                 
                 <div className="mt-1 text-right">
-                  <span className="text-sm text-muted-foreground font-poppins font-semibold">
+                  <span className="text-sm text-muted-foreground font-jost font-semibold">
                     {skill.level + "%"}
                   </span>
                 </div>
