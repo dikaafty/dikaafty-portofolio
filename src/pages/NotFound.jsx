@@ -5,7 +5,7 @@ import { CircleArrowLeft } from 'lucide-react'
 const NotFound = () => {
   return (
     <div className="bg-[#05080F]">
-      
+      <Background />
     </div>
   )
 }
