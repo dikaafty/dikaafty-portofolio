@@ -242,6 +242,13 @@
             border-1 border-[hsl(var(--foreground))] shadow-[5px_5px_0_2px_hsl(var(--foreground))];
 }
 
+@utility photo-profile-wrapper {
+  @apply h-50 px-30 md:h-65 md:px-40 bg-card rounded-tl-[50%] rounded-br-[50%] transform translate-5 relative
+         border-2 border-foreground max-md:my-5 before:content-[""] before:w-full before:h-full 
+         before:bg-foreground before:absolute before:-top-5 before:right-5 before:rounded-tl-[50%] 
+         before:rounded-br-[50%];
+}
+
 @utility photo-profile {
   @apply w-55 h-55 md:w-70 md:h-70 mx-auto mix-blend-luminosity select-none absolute -top-11 right-5.5
          rounded-tl-[50%] rounded-br-[50%];
