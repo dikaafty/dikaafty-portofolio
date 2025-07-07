@@ -39,13 +39,15 @@ const AboutSection = () => {
             every line of code.
           </div>
 
-          <img
-            src={photoProfile}
-            alt="Photo Profile"
-            className="photo-profile hiddenSlideLeftEl"
-            data-animate="slideX"
-            ref={photoProfileRef}
-          />
+          <div className="photo-profile-wrapper">
+            <img
+              src={photoProfile}
+              alt="Photo Profile"
+              className="photo-profile hiddenSlideLeftEl"
+              data-animate="slideX"
+              ref={photoProfileRef}
+            />
+          </div>
         </div>
       </div>
     </section>
