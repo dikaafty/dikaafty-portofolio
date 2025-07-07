@@ -24,7 +24,7 @@ const HeroSection = () => {
         </div>
 
         <p 
-          className="font-poppins text-xs lg:text-base my-1.5 md:my-3 lg:my-4 opacity-0 animate-fade-in-delay-3"
+          className="font-jost text-xs lg:text-base my-1.5 md:my-3 opacity-0 animate-fade-in-delay-3"
         >I build responsive and interactive web interfaces using modern technologies like React and 
         JavaScript. Passionate about turning ideas into elegant digital experiences. 
         Let's build something impactful together.
