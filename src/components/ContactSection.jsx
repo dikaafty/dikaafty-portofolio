@@ -90,7 +90,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="text-start">
-                  <h4 className="text-sm font-poppins font-medium">
+                  <h4 className="text-sm font-poppins font-semibold">
                     Email
                   </h4>
                   <a 
@@ -108,7 +108,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="text-start">
-                  <h4 className="text-sm font-poppins font-medium">
+                  <h4 className="text-sm font-poppins font-semibold">
                     Phone
                   </h4>
                   <a 
@@ -126,7 +126,7 @@ const ContactSection = () => {
                 </div>
 
                 <div className="text-start">
-                  <h4 className="text-sm font-poppins font-medium">
+                  <h4 className="text-sm font-poppins font-semibold">
                     Location
                   </h4>
                   <a className="text-sm font-inter">
