@@ -219,7 +219,7 @@
 }
 
 @utility section-title {
-  @apply text-3xl md:text-4xl font-poppins font-bold mb-12 text-center relative;
+  @apply text-3xl md:text-4xl font-jost font-bold mb-12 text-center relative;
 }
 
 @utility dividerOne {
