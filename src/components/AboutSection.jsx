@@ -45,6 +45,7 @@ const AboutSection = () => {
           <div 
             className="photo-profile-wrapper hiddenSlideLeftEl"
             data-animate="slideX"
+            ref={photoProfileWrapperRef}
           >
             <img
               src={photoProfile}
