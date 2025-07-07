@@ -42,7 +42,7 @@ const AboutSection = () => {
             every line of code.
           </div>
 
-          <div className="photo-profile-wrapper">
+          <div className="photo-profile-wrapper hiddenSlideLeftEl">
             <img
               src={photoProfile}
               alt="Photo Profile"
