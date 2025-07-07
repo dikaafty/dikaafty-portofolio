@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
 
       <p className="font-jost font-bold text-xs md:text-sm max-md:mt-1">
-        © 2025 <span className="text-primary">AGUNG ARDIKA A</span>. ALL RIGHTS RESERVED
+        © 2025 <span className="text-primary text-glow">AGUNG ARDIKA A</span>. ALL RIGHTS RESERVED
       </p>
 
       <p className="font-jost font-bold text-xs md:text-sm">
