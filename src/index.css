@@ -6,6 +6,7 @@
 @theme {
   --font-poppins: "Poppins";
   --font-inter: "Inter";
+  --font-jost: "Jost";
 
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
