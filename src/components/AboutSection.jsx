@@ -44,7 +44,6 @@ const AboutSection = () => {
               src={photoProfile}
               alt="Photo Profile"
               className="photo-profile hiddenSlideLeftEl"
-              data-animate="slideX"
             />
           </div>
         </div>
