@@ -221,13 +221,13 @@
 }
 
 @utility dividerOne {
-  @apply w-0 h-0.5 bg-primary absolute -bottom-1.5 left-1/2 transform -translate-x-1/2
-         transition-all duration-1000 ease-in-out;
+  @apply w-0 h-[3px] bg-primary absolute -bottom-1.5 left-1/2 transform -translate-x-1/2
+         transition-all duration-1000 ease-in-out rounded-full;
 }
 
 @utility dividerTwo {
-  @apply w-0 h-0.5 bg-primary absolute -bottom-[13px] left-1/2 transform -translate-x-1/2
-         transition-all duration-1000 ease-in-out delay-200;
+  @apply w-0 h-[3px] bg-primary absolute -bottom-[13px] left-1/2 transform -translate-x-1/2
+         transition-all duration-1000 ease-in-out delay-200 rounded-full;
 }
 
 @utility fixDividerWidth {
