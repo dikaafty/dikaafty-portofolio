@@ -5,12 +5,15 @@ import { useEffect, useRef } from "react";
 const AboutSection = () => {
   const sectionTitleRef = useRef(null);
   const bioSectionRef = useRef(null);
-  const photoProfileRef = useRef(null);
+  const photoProfileWrapperRef = useRef(null);
   const dividerOneRef = useRef(null);
   const dividerTwoRef = useRef(null);
 
   useEffect(() => {
-    const cleanUp = runObserver(sectionTitleRef, bioSectionRef, photoProfileRef, dividerOneRef, dividerTwoRef);
+    const cleanUp = runObserver(
+      sectionTitleRef, bioSectionRef, photoProfileWrapperRef, 
+      dividerOneRef, dividerTwoRef
+    );
     return () => cleanUp();
   }, []);
 
