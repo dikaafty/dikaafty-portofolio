@@ -194,7 +194,7 @@ const ContactSection = () => {
 
               <button 
                 disabled={isSubmitting}
-                className="md:col-span-2 bg-primary text-card py-3 text-[10px] font-inter font-medium tracking-[2px] 
+                className="md:col-span-2 bg-primary text-card py-3 text-[10px] font-jost font-medium tracking-[2px] 
                            rounded-lg cursor-pointer transition-all duration-500 hover:bg-card hover:text-foreground
                            hover:shadow-[0_0_0_1px_hsl(var(--primary))]"
               >
