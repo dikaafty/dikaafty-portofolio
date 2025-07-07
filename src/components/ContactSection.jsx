@@ -95,7 +95,7 @@ const ContactSection = () => {
                   </h4>
                   <a 
                     href="mailto:dikaafty@gmail.com"
-                    className="text-sm font-inter" 
+                    className="text-sm font-jost" 
                   >
                     dikaafty@gmail.com
                   </a>
@@ -113,7 +113,7 @@ const ContactSection = () => {
                   </h4>
                   <a 
                     href="tel:+6285640570673"
-                    className="text-sm font-inter" 
+                    className="text-sm font-jost" 
                   >
                     +6285640570673
                   </a>
@@ -129,7 +129,7 @@ const ContactSection = () => {
                   <h4 className="text-sm font-poppins font-semibold">
                     Location
                   </h4>
-                  <a className="text-sm font-inter">
+                  <a className="text-sm font-jost">
                     Sragen, Indonesia
                   </a>
                 </div>
