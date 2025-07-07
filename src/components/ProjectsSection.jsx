@@ -76,7 +76,8 @@ const ProjectsSection = () => {
         </h2>
 
         <p 
-          className="font-poppins text-center text-muted-foreground mb-12 max-w-2xl mx-auto hiddenSlideUpEl"
+          className="font-jost text-base md:text-lg text-center text-muted-foreground mb-12 max-w-2xl mx-auto 
+                     hiddenSlideUpEl"
           data-animate="slideY"
           ref={sectionSubtitleRef}
         >
