@@ -246,7 +246,7 @@
   @apply h-50 px-30 md:h-65 md:px-40 bg-card rounded-tl-[50%] rounded-br-[50%] transform translate-5 relative
          border-2 border-foreground max-md:my-5 before:content-[""] before:w-full before:h-full 
          before:bg-foreground before:absolute before:-top-5 before:right-5 before:rounded-tl-[50%] 
-         before:rounded-br-[50%];
+         before:rounded-br-[50%] before:transition-all before:duration-500 before:ease-in-out;
 }
 
 @utility photo-profile {
