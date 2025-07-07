@@ -233,7 +233,7 @@
 }
 
 @utility fixDividerWidth {
-  @apply w-[4em];
+  @apply w-20;
 }
 
 @utility bio-section {
