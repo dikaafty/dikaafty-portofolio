@@ -159,7 +159,7 @@ const ContactSection = () => {
                 name="name" 
                 id="name" 
                 className={cn(
-                  "text-xs font-inter px-2.5 py-3 outline-none rounded-lg transition-all duration-500", 
+                  "text-xs font-jost px-2.5 py-3 outline-none rounded-lg transition-all duration-500", 
                   "shadow-[0_0_0_1px_hsl(var(--foreground))] focus:shadow-[0_0_0_1px_hsl(var(--primary))]",
                   "placeholder:text-foreground"
                 )}
@@ -172,7 +172,7 @@ const ContactSection = () => {
                 name="email" 
                 id="email" 
                 className={cn(
-                  "text-xs font-inter px-2.5 py-3 outline-none rounded-lg transition-all duration-500",
+                  "text-xs font-jost px-2.5 py-3 outline-none rounded-lg transition-all duration-500",
                   "shadow-[0_0_0_1px_hsl(var(--foreground))] focus:shadow-[0_0_0_1px_hsl(var(--primary))]",
                   "placeholder:text-foreground"
                 )}
@@ -184,7 +184,7 @@ const ContactSection = () => {
                 name="message" 
                 id="message" 
                 className={cn(
-                  "md:col-span-2 text-xs font-inter outline-none rounded-lg transition-all duration-500",
+                  "md:col-span-2 text-xs font-jost outline-none rounded-lg transition-all duration-500",
                   "pt-3 px-2.5 pb-12.5 shadow-[0_0_0_1px_hsl(var(--foreground))] resize-none",
                   "focus:shadow-[0_0_0_1px_hsl(var(--primary))] placeholder:text-foreground"
                 )}
