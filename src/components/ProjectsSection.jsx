@@ -27,7 +27,15 @@ const projects = [
     image: "/images/project-three.png",
     demoUrl: "https://dikaafty.github.io/todo-list/",
     githubUrl: "https://github.com/dikaafty/todo-list"
-  }
+  },
+  {
+    id: 4,
+    title: "Blue Lock TicTacToe",
+    description: "A stylish Blue Lock–themed Tic-Tac-Toe game built with HTML, CSS, and JavaScript. A simple and fun 2-player game inspired by the Blue Lock anime.",
+    image: "/images/project-four.png",
+    demoUrl: "https://dikaafty.github.io/blue-lock-tictactoe/",
+    githubUrl: "https://github.com/dikaafty/blue-lock-tictactoe"
+  },
 ];
 
 const ProjectsSection = () => {
