@@ -288,6 +288,11 @@
   width: 5px;
 }
 
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+  border-left: 1px solid hsl(var(--border));
+}
+
 .profession-text::before {
   content: "";
   width: 0;
