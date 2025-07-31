@@ -284,6 +284,10 @@
   text-align: center;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+}
+
 .profession-text::before {
   content: "";
   width: 0;
