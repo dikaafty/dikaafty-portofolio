@@ -293,6 +293,10 @@
   border-left: 1px solid hsl(var(--border));
 }
 
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--primary));
+}
+
 .profession-text::before {
   content: "";
   width: 0;
