@@ -284,12 +284,6 @@
   text-align: center;
 }
 
-
-html {
-  scrollbar-color: hsl(var(--primary)) hsl(var(--background));
-  scrollbar-width: thin;
-}
-
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -538,5 +532,12 @@ input:-webkit-autofill:active{
   75%,
   81% {
     opacity: 0;
+  }
+}
+
+@-moz-document url-prefix() {
+  html {
+    scrollbar-color: hsl(var(--primary)) hsl(var(--background));
+    scrollbar-width: thin;
   }
 }
