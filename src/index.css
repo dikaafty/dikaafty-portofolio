@@ -284,6 +284,12 @@
   text-align: center;
 }
 
+
+html {
+  scrollbar-color: hsl(var(--primary)) hsl(var(--background));
+  scrollbar-width: thin;
+}
+
 ::-webkit-scrollbar {
   width: 5px;
 }
