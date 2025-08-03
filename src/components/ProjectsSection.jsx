@@ -123,6 +123,12 @@ const ProjectsSection = () => {
                   <h3 className="font-poppins text-xl text-left font-semibold mt-4 mb-1.5">
                     {project.title}
                   </h3>
+
+                  {
+                    project.id === projects.length && (
+                      
+                    )
+                  }
                 </div>
 
                 <p className="font-jost text-muted-foreground text-base text-left mb-4">
