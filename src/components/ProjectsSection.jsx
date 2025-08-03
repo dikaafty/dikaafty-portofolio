@@ -126,7 +126,13 @@ const ProjectsSection = () => {
 
                   {
                     project.id === projects.length && (
-                      
+                      <div className="bg-primary px-3 py-0.5 mt-2 flex rounded-full justify-center items-center gap-1.5">
+                        <p className="text-sm font-jost font-medium">
+                          LATEST
+                        </p>
+
+                        <Sparkle size={14} />
+                      </div>
                     )
                   }
                 </div>
