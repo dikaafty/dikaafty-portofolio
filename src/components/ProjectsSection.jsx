@@ -1,5 +1,5 @@
 import { useEffect, useRef, createRef } from "react";
-import { ExternalLinkIcon, Github, Sparkle } from "lucide-react";
+import { ExternalLinkIcon, Github, Sparkle, Flame } from "lucide-react";
 import { runObserver } from "@/lib/utils";
 import CosmicButton from "./CosmicButton";
 
@@ -119,9 +119,11 @@ const ProjectsSection = () => {
                   />
                 </div>
 
-                <h3 className="font-poppins text-xl text-left font-semibold mt-4 mb-1.5">
-                  {project.title}
-                </h3>
+                <div className="flex gap-3 items-center">
+                  <h3 className="font-poppins text-xl text-left font-semibold mt-4 mb-1.5">
+                    {project.title}
+                  </h3>
+                </div>
 
                 <p className="font-jost text-muted-foreground text-base text-left mb-4">
                   {project.description}
