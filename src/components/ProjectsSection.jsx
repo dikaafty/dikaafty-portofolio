@@ -36,6 +36,14 @@ const projects = [
     demoUrl: "https://dikaafty.github.io/blue-lock-tictactoe/",
     githubUrl: "https://github.com/dikaafty/blue-lock-tictactoe"
   },
+  {
+    id: 5,
+    title: "JOBKER.",
+    description: "A clean and simple job tracking application built for developers, freelancers, and job seekers who want clarity, structure, and focus during their job search.",
+    image: "/images/project-five.png",
+    demoUrl: "https://jobker.vercel.app/",
+    githubUrl: "https://github.com/dikaafty/jobker"
+  }
 ];
 
 const ProjectsSection = () => {
