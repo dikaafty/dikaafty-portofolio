@@ -16,6 +16,7 @@ const skills = [
   {name: "React Testing Library", level: 65, category: "frontend"},
 
   // Tools
+  {name: "Jest", level: 75, category: "tools"},
   {name: "Git", level: 70, category: "tools"},
   {name: "GitHub", level: 70, category: "tools"},
   {name: "Figma", level: 40, category: "tools"},
