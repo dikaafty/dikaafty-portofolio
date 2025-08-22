@@ -13,6 +13,7 @@ const skills = [
   {name: "Next.js", level: 30, category: "frontend"},
   {name: "Redux", level: 40, category: "frontend"},
   {name: "Axios", level: 40, category: "frontend"},
+  {name: "React Testing Library", level: 65, category: "frontend"},
 
   // Tools
   {name: "Git", level: 70, category: "tools"},
