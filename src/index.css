@@ -493,6 +493,10 @@
   transition-delay: 400ms;
 }
 
+.skill:nth-child(17) {
+  transition-delay: 200ms;
+}
+
 .project:nth-child(2) {
   transition-delay: 200ms;
 }
