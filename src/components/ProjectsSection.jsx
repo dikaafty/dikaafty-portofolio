@@ -116,7 +116,8 @@ const ProjectsSection = () => {
                 key={project.id}
                 className={
                   cn("group project bg-card rounded-lg overflow-hidden p-6 hiddenSlideRightEl",
-                    "border-1 border-[hsl(var(--foreground))] shadow-[5px_5px_0_2px_hsl(var(--foreground))]")
+                    "border-1 border-[hsl(var(--foreground))] shadow-[5px_5px_0_2px_hsl(var(--foreground))]",
+                    project.id % 3 === 2 ? "delay-200" : project.id % 3 === 0 ? "delay-400" : "delay-0")
                 }
                 data-animate="slideX"
                 ref={projectsRef.current[idx]}
