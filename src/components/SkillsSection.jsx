@@ -102,7 +102,8 @@ const SkillsSection = () => {
               <div
                 key={key}
                 className={
-                  cn("bg-card p-6 rounded-lg shadow-xs card-hover relative card-after hiddenSlideRightEl skill")
+                  cn("bg-card p-6 rounded-lg shadow-xs card-hover relative card-after hiddenSlideRightEl skill",
+                  key % 3 === 1 ? "delay-200" : key % 3 === 2 ? "delay-400" : "delay-0")
                 }
                 data-animate="slideX"
                 ref={skillsRef.current[key]}
