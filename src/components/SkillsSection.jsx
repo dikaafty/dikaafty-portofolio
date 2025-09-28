@@ -101,7 +101,9 @@ const SkillsSection = () => {
             filteredSkills.map((skill, key) => (
               <div
                 key={key}
-                className="bg-card p-6 rounded-lg shadow-xs card-hover relative card-after hiddenSlideRightEl skill"
+                className={
+                  cn("bg-card p-6 rounded-lg shadow-xs card-hover relative card-after hiddenSlideRightEl skill")
+                }
                 data-animate="slideX"
                 ref={skillsRef.current[key]}
               >
