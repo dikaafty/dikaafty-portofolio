@@ -497,22 +497,6 @@
   transition-delay: 200ms;
 }
 
-.project:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-.project:nth-child(3) {
-  transition-delay: 400ms;
-}
-
-.project:nth-child(5) {
-  transition-delay: 200ms;
-}
-
-.project:nth-child(6) {
-  transition-delay: 400ms;
-}
-
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
