@@ -114,8 +114,10 @@ const ProjectsSection = () => {
             projects.map((project, idx) => (
               <div
                 key={project.id}
-                className="group project bg-card rounded-lg overflow-hidden p-6 hiddenSlideRightEl
-                           border-1 border-[hsl(var(--foreground))] shadow-[5px_5px_0_2px_hsl(var(--foreground))]"
+                className={
+                  cn("group project bg-card rounded-lg overflow-hidden p-6 hiddenSlideRightEl",
+                    "border-1 border-[hsl(var(--foreground))] shadow-[5px_5px_0_2px_hsl(var(--foreground))]")
+                }
                 data-animate="slideX"
                 ref={projectsRef.current[idx]}
               >
