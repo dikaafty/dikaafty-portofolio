@@ -509,6 +509,10 @@
   transition-delay: 200ms;
 }
 
+.project:nth-child(6) {
+  transition-delay: 400ms;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
