@@ -453,50 +453,6 @@
   animation-delay: 0.8s;
 }
 
-.skill:nth-child(2) {
-  transition-delay: 200ms;
-}
-
-.skill:nth-child(3) {
-  transition-delay: 400ms;
-}
-
-.skill:nth-child(5) {
-  transition-delay: 200ms;
-}
-
-.skill:nth-child(6) {
-  transition-delay: 400ms;
-}
-
-.skill:nth-child(8) {
-  transition-delay: 200ms;
-}
-
-.skill:nth-child(9) {
-  transition-delay: 400ms;
-}
-
-.skill:nth-child(11) {
-  transition-delay: 200ms;
-}
-
-.skill:nth-child(12) {
-  transition-delay: 400ms;
-}
-
-.skill:nth-child(14) {
-  transition-delay: 200ms;
-}
-
-.skill:nth-child(15) {
-  transition-delay: 400ms;
-}
-
-.skill:nth-child(17) {
-  transition-delay: 200ms;
-}
-
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
