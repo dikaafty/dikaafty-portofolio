@@ -1,6 +1,7 @@
 import { useEffect, useRef, createRef } from "react";
 import { ExternalLinkIcon, Github, Sparkle, Flame } from "lucide-react";
 import { runObserver } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import CosmicButton from "./CosmicButton";
 
 const projects = [
