@@ -14,7 +14,7 @@ const skills = [
   {name: "Redux", level: 40, category: "frontend"},
   {name: "Axios", level: 40, category: "frontend"},
   {name: "React Testing Library", level: 65, category: "frontend"},
-  {name: "Cypress", level: 40, category: "frontend"},
+  {name: "Cypress", level: 85, category: "frontend"},
   {name: "GSAP", level: 50, category: "frontend"},
 
   // Tools
