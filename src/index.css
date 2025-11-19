@@ -462,6 +462,15 @@
   transition: opacity 0.5s ease-in-out;
 }
 
+.skill::before {
+  background: radial-gradient(
+    800px circle at var(--mouse-x) var(--mouse-y),
+    hsl(var(--primary) / 0.1),
+    transparent 40%
+  );
+  z-index: 30;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
