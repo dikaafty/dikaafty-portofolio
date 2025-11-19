@@ -70,6 +70,13 @@ const SkillsSection = () => {
 
       return { el, handler };
     });
+
+    return () => {
+      handlers.forEach((item) => {
+        if(!item) return;
+        item.el.removeEventListener("mousemove", item.handler);
+      });
+    };
   }, []);
 
   return (
