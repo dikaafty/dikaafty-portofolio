@@ -139,16 +139,17 @@ const SkillsSection = () => {
                 data-animate="slideX"
                 ref={skillsRef.current[key]}
               >
-                <div className="flex justify-center items-center mb-4">
-                  <img 
-                    src={skill.image} 
-                    alt={`${skill.name} Icon`} 
-                    className="size-20 object-contain"
-                  />
-                </div>
-
-                <div className="text-center">
-                  <h3 className="font-jost font-semibold text-lg">{skill.name}</h3>
+                <div>
+                  <div className="flex justify-center items-center mb-4">
+                    <img
+                      src={skill.image}
+                      alt={`${skill.name} Icon`}
+                      className="size-20 object-contain"
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h3 className="font-jost font-semibold text-lg">{skill.name}</h3>
+                  </div>
                 </div>
               </div>
             ))
