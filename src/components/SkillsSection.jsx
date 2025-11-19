@@ -133,7 +133,7 @@ const SkillsSection = () => {
               <div
                 key={key}
                 className={
-                  cn("bg-primary/10 rounded-lg shadow-xs relative hiddenSlideRightEl",
+                  cn("skill bg-primary/10 rounded-lg shadow-xs relative hiddenSlideRightEl",
                   key % 3 === 1 ? "delay-200" : key % 3 === 2 ? "delay-400" : "delay-0")
                 }
                 data-animate="slideX"
