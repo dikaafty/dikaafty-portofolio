@@ -449,6 +449,19 @@
   animation-delay: 0.8s;
 }
 
+.skill::before,
+.skill > .card-border {
+  border-radius: inherit;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
