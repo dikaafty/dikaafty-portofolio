@@ -109,6 +109,10 @@ const SkillsSection = () => {
                 data-animate="slideX"
                 ref={skillsRef.current[key]}
               >
+                <div className="flex justify-center items-center mb-4">
+                  
+                </div>
+
                 <div className="text-center">
                   <h3 className="font-jost font-semibold text-lg">{skill.name}</h3>
                 </div>
