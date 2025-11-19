@@ -139,6 +139,8 @@ const SkillsSection = () => {
                 data-animate="slideX"
                 ref={skillsRef.current[key]}
               >
+                <div className="card-border" />
+
                 <div className="size-[calc(100%-4px)] bg-card/70 rounded-lg relative m-0.5 p-6 z-20">
                   <div className="flex justify-center items-center mb-4">
                     <img
