@@ -471,6 +471,15 @@
   z-index: 30;
 }
 
+.card-border {
+  background: radial-gradient(
+    400px circle at var(--mouse-x) var(--mouse-y),
+    hsl(var(--primary) / 0.4),
+    transparent 40%
+  );
+  z-index: 10;
+}
+
 input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
