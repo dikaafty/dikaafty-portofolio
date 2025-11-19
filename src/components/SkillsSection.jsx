@@ -3,26 +3,26 @@ import { useState, useEffect, useRef, createRef } from "react";
 
 const skills = [
   // Frontend
-  {name: "HTML", level: 75, category: "frontend"},
-  {name: "CSS", level: 75, category: "frontend"},
-  {name: "Tailwind CSS", level: 75, category: "frontend"},
-  {name: "JavaScript", level: 70, category: "frontend"},
-  {name: "TypeScript", level: 50, category: "frontend"},
-  {name: "Webpack", level: 40, category: "frontend"},
-  {name: "React", level: 70, category: "frontend"},
-  {name: "Next.js", level: 30, category: "frontend"},
-  {name: "Redux", level: 40, category: "frontend"},
-  {name: "Axios", level: 40, category: "frontend"},
-  {name: "React Testing Library", level: 65, category: "frontend"},
-  {name: "Cypress", level: 85, category: "frontend"},
-  {name: "GSAP", level: 50, category: "frontend"},
+  {name: "HTML", category: "frontend", image: "/images/html-icon.svg"},
+  {name: "CSS", category: "frontend", image: "/images/css-icon.svg"},
+  {name: "Tailwind CSS", category: "frontend", image: "/images/tailwind-icon.svg"},
+  {name: "JavaScript", category: "frontend", image: "/images/javascript-icon.svg"},
+  {name: "TypeScript", category: "frontend", image: "/images/typescript-icon.svg"},
+  {name: "Webpack", category: "frontend", image: "/images/webpack-icon.svg"},
+  {name: "React", category: "frontend", image: "/images/reactjs-icon.svg"},
+  {name: "Next.js", category: "frontend", image: "/images/nextjs-icon.svg"},
+  {name: "Redux", category: "frontend", image: "/images/redux-icon.svg"},
+  {name: "Axios", category: "frontend", image: "/images/axios-icon.svg"},
+  {name: "React Testing Library", category: "frontend", image: "/images/rtl-icon.svg"},
+  {name: "Cypress", category: "frontend", image: "/images/cypress-icon.svg"},
+  {name: "GSAP", category: "frontend", image: "/images/gsap-icon.svg"},
 
   // Tools
-  {name: "Jest", level: 75, category: "tools"},
-  {name: "Git", level: 70, category: "tools"},
-  {name: "GitHub", level: 70, category: "tools"},
-  {name: "Figma", level: 40, category: "tools"},
-  {name: "VS Code", level: 80, category: "tools"},
+  {name: "Jest", category: "tools", image: "/images/jest-icon.svg"},
+  {name: "Git", category: "tools", image: "/images/git-icon.svg"},
+  {name: "GitHub", category: "tools", image: "/images/github-icon.svg"},
+  {name: "Figma", category: "tools", image: "/images/figma-icon.svg"},
+  {name: "VS Code", category: "tools", image: "/images/vs-code-icon.svg"},
 ];
 
 const categories = ["all", "frontend", "tools"];
