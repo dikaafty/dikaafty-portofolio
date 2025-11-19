@@ -60,6 +60,18 @@ const SkillsSection = () => {
     return () => cleanUp();
   }, [filteredSkills]);
 
+  useEffect(() => {
+    const handlers = skillsRef.current.map((skill) => {
+      const el = skill.current;
+      if(!el) return;
+
+      const handler = (e) => handleOnMouseMove(e);
+      el.addEventListener("mousemove", handler);
+
+      return { el, handler };
+    });
+  }, []);
+
   return (
     <section
       id="skills"
