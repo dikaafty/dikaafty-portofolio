@@ -110,7 +110,11 @@ const SkillsSection = () => {
                 ref={skillsRef.current[key]}
               >
                 <div className="flex justify-center items-center mb-4">
-                  
+                  <img 
+                    src={skill.image} 
+                    alt={`${skill.name} Icon`} 
+                    className="size-20 object-contain"
+                  />
                 </div>
 
                 <div className="text-center">
