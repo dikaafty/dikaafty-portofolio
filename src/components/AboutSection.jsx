@@ -37,8 +37,8 @@ const AboutSection = () => {
             ref={bioSectionRef}
           > 
             I’m Agung Ardika Aftriyansyah, also known as Dika Afty — a passionate Front-End Developer focused on 
-            building clean, responsive, and interactive web interfaces. I specialize in HTML, CSS, JavaScript, 
-            and React, and I’m on a mission to become an elite developer with discipline, energy, and ambition in 
+            building clean, responsive, and interactive web interfaces. I specialize in JavaScript, TypeScript, 
+            React.js, and Next.js, and I’m on a mission to become an elite developer with discipline, energy, and ambition in 
             every line of code.
           </div>
 
