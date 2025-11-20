@@ -9,7 +9,7 @@ const skills = [
   {name: "JavaScript", category: "frontend", image: "/images/javascript-icon.svg"},
   {name: "TypeScript", category: "frontend", image: "/images/typescript-icon.svg"},
   {name: "Webpack", category: "frontend", image: "/images/webpack-icon.svg"},
-  {name: "React", category: "frontend", image: "/images/reactjs-icon.svg"},
+  {name: "React.js", category: "frontend", image: "/images/reactjs-icon.svg"},
   {name: "Next.js", category: "frontend", image: "/images/nextjs-icon.svg"},
   {name: "Redux", category: "frontend", image: "/images/redux-icon.svg"},
   {name: "Axios", category: "frontend", image: "/images/axios-icon.svg"},
