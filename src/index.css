@@ -449,6 +449,10 @@
   animation-delay: 0.8s;
 }
 
+.skills:hover > .skill > .card-border {
+  opacity: 1;
+}
+
 .skill::before,
 .skill > .card-border {
   border-radius: inherit;
