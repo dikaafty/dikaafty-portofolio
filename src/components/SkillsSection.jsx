@@ -63,22 +63,14 @@ const SkillsSection = () => {
   }, [filteredSkills]);
 
   useEffect(() => {
-    const handlers = skillsRef.current.map((skill) => {
-      const el = skill.current;
-      if(!el) return;
+    const container = skillsContainerRef.current;
+    if(!container) return;
 
-      const handler = (e) => handleOnMouseMove(e);
-      el.addEventListener("mousemove", handler);
-
-      return { el, handler };
-    });
+    container.addEventListener("mousemove", (e) => handleOnMouseMove(e));
 
     return () => {
-      handlers.forEach((item) => {
-        if(!item) return;
-        item.el.removeEventListener("mousemove", item.handler);
-      });
-    };
+      container.removeEventListener("mousemove", (e) => handleOnMouseMove(e));
+    }
   }, []);
 
   return (
