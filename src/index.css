@@ -484,8 +484,7 @@
   z-index: 10;
 }
 
-.skill:hover::before,
-.skill:hover > .card-border {
+.skill:hover::before {
   opacity: 1;
 }
 
