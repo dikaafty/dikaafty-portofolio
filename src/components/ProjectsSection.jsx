@@ -48,7 +48,7 @@ const projects = [
   {
     id: 6,
     title: "MOJITO",
-    description: "MOJITO is a modern cocktail-themed landing page that captures the premium atmosphere of an upscale cocktail lounge through stunning animations and sleek design.",
+    description: "A modern cocktail-themed landing page that captures the premium atmosphere of an upscale cocktail lounge through stunning animations and sleek design.",
     image: "/images/project-six.png",
     demoUrl: "https://mojito-tail.vercel.app/",
     githubUrl: "https://github.com/dikaafty/mojito"
