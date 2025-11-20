@@ -46,6 +46,8 @@ const SkillsSection = () => {
   const handleOnMouseMove = (e) => {
     for (const skill of skillsRef.current) {
       const target = skill.current;
+      if(!target) return;
+      
       const rect = target.getBoundingClientRect(),
         x = e.clientX - rect.left,
         y = e.clientY - rect.top;
