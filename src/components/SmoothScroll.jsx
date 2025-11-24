@@ -1,3 +1,5 @@
+import Lenis from "lenis";
+
 const SmoothScroll = () => {
   return null;
 };
