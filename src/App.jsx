@@ -7,6 +7,8 @@ import SmoothScroll from "./components/SmoothScroll";
 function App() {
   return (
     <>
+      <SmoothScroll />
+    
       <Toaster />
       <BrowserRouter>
         <Routes>
